@@ -1,8 +1,21 @@
 class A{
-	
+	/*
 	void display()
 	{
 		System.out.println("Disp in class A");
+	}
+	*/
+	
+	/*
+	protected void show()
+	{
+		
+	}
+	*/
+	
+	public void show()
+	{
+		
 	}
 	
 }
@@ -11,10 +24,12 @@ class A{
 
 class B extends A{
 	
+	/*
 	public void display()
 	{
 		System.out.println("Disp in class B");
 	}
+	*/
 	
 	/*
 	
@@ -25,6 +40,19 @@ class B extends A{
 	
 	*/
 	
+	/*
+	 void show()
+	{
+		
+	}
+	*/
+	
+	
+	protected void show()
+	{
+		
+	}
+	
 }
 
 
@@ -33,7 +61,7 @@ public class OverrideDefaultMethodAsPubilcAndProtectedInChild
 	public static void main(String ss[])
 	{
 		B obj = new B();
-		obj.display();
+		obj.show();
 	}
 
 
